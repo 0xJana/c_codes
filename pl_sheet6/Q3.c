@@ -2,8 +2,7 @@
 #include <stdlib.h>
 void calc(float numberOfMiles,float fuelConsumption,float *fuelConsumptionPerMile){
     if(numberOfMiles == 0){
-        printf("Error: Division by zero\n");
-        return;
+        *elConsumptionPerMile =0;
     }
     if(fuelConsumption < 0 || numberOfMiles < 0){
         printf("Error: Negative values are not allowed\n");
