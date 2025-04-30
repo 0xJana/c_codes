@@ -7,7 +7,7 @@ int digits(char *str)
         return 0;
     }
     else{
-         if(*str>=0){
+         if(*str>=0 && *str<=9){
              return 1 + digits(str+1);
         }
         else{
