@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdiob.h>
+#include <stdib.h>
 
 int main(){
     int x=25;
